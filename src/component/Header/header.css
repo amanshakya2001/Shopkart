@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Work+Sans:wght@400;700&display=swap');
+header{
+    position: fixed;
+    top: 0;
+    color: white;
+    width: 100%;
+}
+header .container{
+    max-width: 1340px;
+    margin: 0px auto;
+}
+header h2{
+    margin: 0px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 275;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+header .row{
+    display: flex;
+    padding-right: 80px;
+}
+header .menu-right{
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+header .menu-right li{
+    margin-left: 10px;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+header .menu-left{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+}
+header .menu-left li{
+    padding: 5px 20px;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}

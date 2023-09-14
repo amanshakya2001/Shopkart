@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700;800&family=Work+Sans&display=swap');
+
+#contactUs{
+    background: url('./contact.png');
+    padding-top: 50px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+#contactUs .container{
+    max-width: 1340px;
+    margin: 0px auto;
+}
+
+#contactUs .row{
+    padding: 20px 0px;
+    display: flex;
+}
+#contactUs .col-6{
+    width: 50%;
+}
+
+#contactUs .col-4{
+    width: 28%;
+}
+.btn-orange{
+    width: 181px;
+    height: 181px;
+    position: absolute;
+    border: 2px solid #F07E15;
+    color: #F07E15;
+    font-family: Work Sans;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    right: 359px;
+    bottom: 94px;
+
+
+}
+
+#contactUs h1{
+    margin: 0px;
+    color: white;
+    font-family: Syne;
+    font-size: 135px;
+    font-weight: 800;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px;
+    font-stretch: expanded;
+}
+
+#contactUs h4{
+    font-family: Syne;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF80;
+    margin: 0px;
+    margin-bottom: 10px;
+
+}
+
+#contactUs p{
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF80;
+    margin: 0px;
+}
+
+#contactUs form{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+#contactUs form input{
+    margin-bottom: 20px;
+    background-color: transparent;
+    box-shadow: none;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
